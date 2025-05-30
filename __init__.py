@@ -33,6 +33,7 @@ bl_info = {
 
 
 import sys
+sys.path.append("/Users/tim/.local/lib/python3.11/site-packages")
 import os
 script_file = os.path.realpath(__file__)
 directory = os.path.dirname(script_file)
